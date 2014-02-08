@@ -1,0 +1,37 @@
+b)
+Launch A1
+ A1.onCreate
+ A1.onStart
+ A1.onResume
+ A1 Running
+Launch A2 from A1
+ A1.onPause
+  A2.onCreate
+  A2.onStart
+ A1.onStop
+  A2.onResume
+  A2 Running
+
+c)
+Click Cles Button on A2
+  A2.onPause
+  A2.onStop
+ A1.onRestart
+ A1.onStart
+ A1.onResume
+ A1 Running
+  A2.onDestroy
+  A2 Shut Down
+
+d)
+Launch A2 from A1
+ A1.onPause
+  A2.onCreate
+  A2.onStart
+ A1.onStop
+  A2.onResume
+  A2 Running
+Press Home button
+  A2.onPause
+  A2.onStop
+
